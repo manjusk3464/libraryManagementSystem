@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.library.management">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.android.library.management.issuebookdetails.IssuedBooksDataDisplay"></activity>
+        <activity android:name="com.android.library.management.Issuebooklist.IssuedBooksListActivity" />
+        <activity android:name="com.android.library.management.detailReturnBook.DetailReturnBk" />
+        <activity android:name="com.android.library.management.returnbook.ReturnBook" />
+        <activity android:name="com.android.library.management.issuebook.IssueBookActivity" />
+        <activity android:name="com.android.library.management.bookslist.BooksList" />
+        <activity android:name="com.android.library.management.utils.StatsShow" />
+        <activity android:name="com.android.library.management.addbook.AddBook" />
+        <activity android:name="com.android.library.management.utils.LibraryMenu" />
+        <activity android:name="com.android.library.management.utils.register" />
+        <activity android:name="com.android.library.management.utils.userLogin" />
+        <activity android:name="com.android.library.management.utils.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
